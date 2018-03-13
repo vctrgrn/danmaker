@@ -73,7 +73,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Frites au Caribou <img src="{{asset('/images/instagram.png')}}">
+                    <img src="{{asset('https://image.noelshack.com/fichiers/2018/11/2/1520976609-gg.jpg')}}" width="150px" height="150">
+                        Frites au Caribou
+                    <img src="{{asset('https://d2homsd77vx6d2.cloudfront.net/cache/7/9/0ca70fffe05fcd99f8768e6cb14dd2.jpg')}}" width="150px" height="150">
                 </div>
 
                 <div class="links">
