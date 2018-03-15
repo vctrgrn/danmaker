@@ -90,7 +90,16 @@ html, body {
     margin-left: 20px;
 }
 
-.carousel-control-prev {
-    background-image: url("../images/instagram.png");
-    background-repeat: no-repeat;
+.carousel-inner {
+    height: 900px;
 }
+
+.row-gutter {
+    height:30px;
+}
+
+.resized {
+max-width:100%;
+    height:auto;
+}
+
