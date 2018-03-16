@@ -1,161 +1,170 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Danmaker</title>
-        <link rel="shortcut icon" href="{{asset('/images/instagram.png')}}">
+    <title>Danmaker</title>
+    <link rel="shortcut icon" href="{{asset('/images/instagram.png')}}">
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
 
-    </head>
-    <body>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="{{asset('/images/instagram.png')}}" width="30" height="30" alt="">
-            </a>
-            <div class="form-inline">
-                <span class="userIcon"><img src="{{asset('/images/user.png')}}"></span>
-                <span class="panierIcon"><img src="{{asset('/images/cart-of-ecommerce.png')}}"></span>
-                <span class="searchIcon"><img src="{{asset('/images/magnifier.png')}}"></span>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="{{asset('/images/logo.jpg')}}" alt="logo">
+    </a>
+    <div class="form-inline">
+        <span class="userIcon"><img src="{{asset('/images/user.png')}}"></span>
+        <span class="panierIcon"><img src="{{asset('/images/cart-of-ecommerce.png')}}"></span>
+        <span class="searchIcon"><img src="{{asset('/images/magnifier.png')}}"></span>
+    </div>
+</nav>
+<!-- CAROUSEL -->
+<div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="{{asset('/images/image1.jpg')}}" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="firstSlider">Danmaker</h1>
+                </div>
             </div>
-        </nav>
-        <!-- CAROUSEL -->
-        <div>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="{{asset('/images/image1.jpg')}}" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 class="firstSlider">Danmaker</h1>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{asset('/images/image2.jpg')}}" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Danmaker</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{asset('/images/image3.jpg')}}" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Danmaker</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="{{asset('/images/image4.jpg')}}" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Danmaker</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Controle de retour image carousel-->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- Controle image suivvante carousel-->
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div class="row-gutter"> <!-- Permet de marger entre les conteneurs -->
+</div>
+
+<!-- Menu-->
+<div class="col-1">
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+    </ul>
+</div>
+
+<!-- Container -->
+<div class="container">
+    <div class="row">
+        <!-- Boucle pour afficher 4 articles -->
+        @for ($i = 0; $i < 4; $i++)
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <div class="card-img-top resized">
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="{{asset('/images/image2.jpg')}}" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Danmaker</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="{{asset('/images/image3.jpg')}}" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Danmaker</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="{{asset('/images/image4.jpg')}}" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Danmaker</h1>
-                        </div>
+                    </a>
+                    <div class="card-footer blinkUnderline text-center">
+                        <a href="#">Acheter</a> <b>100€</b>
                     </div>
                 </div>
-                <!-- Controle de retour image carousel-->
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span class="sr-only">Previous</span>
+            </div>
+    @endfor
+    <!-- Marge-->
+        <div class="container-fluid">
+            <div class="row-gutter"></div>
+        </div>
+        <!-- Carte catégorie 1-->
+        <div class="col-6">
+            <div class="card center">
+                <h2 class="titreCategorieCarte catFemme"><b>Femmes</b></h2>
+                <a href="#">
+                    <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCatégorie.jpg')}}"
+                         style="display: block;" data-holder-rendered="true">
                 </a>
-                <!-- Controle image suivvante carousel-->
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+            </div>
+        </div>
+        <!-- Carte catégorie 2 -->
+        <div class="col-6">
+            <div class="card">
+                <h2 class="titreCategorieCarte"><b>Tee-shirts</b></h2>
+                <a href="#">
+                    <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCategorie2.jpg')}}"
+                         style="display: block;" data-holder-rendered="true">
                 </a>
             </div>
-        </div>
-
-        <div class="row-gutter"> <!-- Permet de marger entre les conteneurs -->
-        </div>
-
-        <!-- Menu-->
-        <div class="col-1">
-            <ul>
-                <li>item 1 </li>
-                <li>item 2 </li>
-                <li>item 3 </li>
-                <li>item 4 </li>
-                <li>item 5 </li>
-                <li>item 6 </li>
-            </ul>
-        </div>
-
-        <!-- Container -->
-        <div class="container">
-            <div class="row">
-                <!-- Boucle our afficher 4 articles -->
-                @for ($i = 0; $i < 4; $i++)
-                    <div class="col-3">
-                        <div class="card">
-                            <a href="#">
-                                <div class="card-img-top resized">
-                                </div>
-                            </a>
-                            <div class="card-footer text-center">
-                                <a href="#">Acheter</a> <b>100€</b>
-                            </div>
-                        </div>
-                    </div>
-                @endfor
-                <!-- Marge-->
-                <div class="container-fluid">
-                    <div class="row-gutter"></div>
-                </div>
-                <!-- Carte catégorie 1-->
-                <div class="col-6">
-                    <div class="card center">
-                        <h2 class="titreCategorieCarte catFemme"><b>Femmes</b></h2>
-                        <a href="#">
-                            <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCatégorie.jpg')}}" style="display: block;" data-holder-rendered="true">
-                        </a>
-                    </div>
-                </div>
-                <!-- Carte catégorie 2 -->
-                <div class="col-6">
-                    <div class="card">
-                        <h2 class="titreCategorieCarte"><b>Tee-shirts</b></h2>
-                        <a href="#">
-                            <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCategorie2.jpg')}}" style="display: block;" data-holder-rendered="true">
-                        </a>
-                    </div>
-                </div>
-                <!-- Marge-->
-                <div class="container-fluid">
-                    <div class="row-gutter"></div>
-                </div>
-            </div>
-        </div>
-        <!-- Banniere -->
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner banniereImage">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="{{asset('/images/imageBanniere.jpg')}}" alt="First slide">
-                    </div>
-                </div>
-            </div>
-        <!-- Collection capsule exemple -->
-        <div class="text-center">
-            <h1 class="collectionCard">Besoin d'accessoires pour les vacances ?</h1>
-        </div>
-        <div class=" offset-2 col-8 cardCapsule">
         </div>
         <!-- Marge-->
         <div class="container-fluid">
             <div class="row-gutter"></div>
         </div>
+    </div>
+</div>
+<!-- Banniere -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner banniereImage">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="{{asset('/images/imageBanniere.jpg')}}" alt="First slide">
+            <div class="divBanner">
+                <h1><b><i>Collection</i></b></h1>
+                <h5>Printemps/Été</h5>
+                <br>
+                <p>Sed at placerat felis. Quisque quam tellus, tempor vitae auctor vel, elementum vel dolor. Donec feugiat aliquam augue.
+                    Aliquam erat volutpat. Sed gravida, lectus nec congue scelerisque, velit quam vehicula neque, eu aliquam est leo quis ligula.
+                    Vestibulum vulputate tristique leo, eget commodo nunc varius non. Vivamus eget accumsan lorem.
+                </p>
+        </div>
+    </div>
+</div>
+<!-- Collection capsule exemple -->
+<div class="text-center">
+    <h1 class="collectionCard">Besoin d'accessoires pour les vacances ?</h1>
+</div>
+<div class=" offset-2 col-8 cardCapsule">
+</div>
+<!-- Marge-->
+<div class="container-fluid">
+    <div class="row-gutter"></div>
+</div>
 
 
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                crossorigin="anonymous"></script>
-    </body>
-</html><!doctype html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
