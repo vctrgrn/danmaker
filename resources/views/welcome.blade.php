@@ -41,6 +41,7 @@
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('/images/image4.jpg')}}" alt="First slide">
+                <span>kj</span>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
