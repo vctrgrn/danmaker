@@ -44,10 +44,12 @@
                 <span>kj</span>
             </div>
         </div>
+        <!-- Controle de retour image carousel-->
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="false"></span>
             <span class="sr-only">Previous</span>
         </a>
+        <!-- Controle image suivvante carousel-->
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
@@ -58,6 +60,7 @@
 <div class="row-gutter"> <!-- Permet de marger entre les conteneurs -->
 </div>
 
+<!-- Menu-->
 <div class="col-1">
     <ul>
         <li>item 1 </li>
@@ -69,8 +72,10 @@
     </ul>
 </div>
 
+<!-- Container principal-->
 <div class="container">
     <div class="row">
+        <!-- Boucle our afficher 4 articles -->
         @for ($i = 0; $i < 4; $i++)
             <div class="col-3">
                 <div class="card">
@@ -84,9 +89,11 @@
                 </div>
             </div>
         @endfor
+            <!-- Marge-->
             <div class="container-fluid">
                 <div class="row-gutter"></div>
             </div>
+        <!-- Carte catégorie 1-->
             <div class="col-6">
                 <div class="card center">
                     <h2 class="titreCategorieCarte">Categorie 1</h2>
@@ -96,6 +103,7 @@
                     </a>
                 </div>
             </div>
+        <!-- Carte catégorie 2 -->
             <div class="col-6">
                 <div class="card">
                     <h2 class="titreCategorieCarte">Categorie 1</h2>
@@ -105,6 +113,7 @@
                     </a>
                 </div>
             </div>
+        <!-- Marge-->
             <div class="container-fluid">
                 <div class="row-gutter"></div>
             </div>
