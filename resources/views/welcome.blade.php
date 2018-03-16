@@ -116,16 +116,26 @@
                 </div>
             </div>
         </div>
-
-        <div>
+        <!-- Banniere -->
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner banniereImage">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="{{asset('/images/imageBanniere.jpg')}}" alt="First slide">
                     </div>
                 </div>
             </div>
+        <!-- Collection capsule exemple -->
+        <div class="text-center">
+            <h1 class="collectionCard">Besoin d'accessoires pour les vacances ?</h1>
         </div>
+        <div class=" offset-2 col-8 cardCapsule">
+        </div>
+        <!-- Marge-->
+        <div class="container-fluid">
+            <div class="row-gutter"></div>
+        </div>
+
+
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

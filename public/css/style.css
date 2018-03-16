@@ -119,9 +119,23 @@ h2.titreCategorieCarte {
     border-bottom: 1px solid whitesmoke;
 }
 
+div.cardCapsule {
+    background: url("../images/collectionEte.jpg");
+    height: 350px;
+}
 
 .col-1{
     float:left;
+}
+
+h1.collectionCard {
+    font-family: 'Halimun';
+    margin-bottom: 50px;
+}
+
+.banniereImage {
+    height: auto;
+    margin-bottom: 50px;
 }
 
 /* FONTS ET POLICES D'ÉCRITURE */
@@ -129,3 +143,4 @@ h2.titreCategorieCarte {
     font-family: Halimun;
     src: url("../fonts/Halimun.ttf");
 }
+
