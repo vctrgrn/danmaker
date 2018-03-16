@@ -119,6 +119,19 @@ h2.titreCategorieCarte {
     border-bottom: 1px solid whitesmoke;
 }
 
+.firstSlider{
+    color: rgba(10,10,10,0.8);
+}
+
+.carousel-caption {
+    top:150px;
+    padding-top:0px;
+}
+
+.carousel-caption>h1 {
+    font-family: Halimun;
+    font-size: 100px;
+}
 
 .col-1{
     float:left;
