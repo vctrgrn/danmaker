@@ -100,7 +100,12 @@ html, body {
 
 .resized {
     max-width:100%;
-    height:auto;
+    height:350px;
+    background: url("../images/imagePull2Bleu.jpg");
+}
+
+.resized:hover{
+    background: url("../images/imagePull2Gris.jpg");
 }
 
 h2.titreCategorieCarte {

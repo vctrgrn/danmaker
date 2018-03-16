@@ -74,8 +74,8 @@
             <div class="col-3">
                 <div class="card">
                     <a href="#">
-                        <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                             style="display: block;" data-holder-rendered="true">
+                        <div class="card-img-top resized">
+                        </div>
                     </a>
                     <div class="card-footer text-center">
                         <a href="#">Acheter</a> <b>100€</b>
@@ -90,7 +90,7 @@
                 <div class="card center">
                     <h2 class="titreCategorieCarte">CATEGORIE 1</h2>
                     <a href="#">
-                        <img class="card-img-top resized" src="{{asset('/images/imageCatégorie.jpg')}}"
+                        <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCatégorie.jpg')}}"
                              style="display: block;" data-holder-rendered="true">
                     </a>
                 </div>
@@ -99,7 +99,7 @@
                 <div class="card">
                     <h2 class="titreCategorieCarte">CATEGORIE 1</h2>
                     <a href="#">
-                        <img class="card-img-top resized" src="{{asset('/images/imageCategorie2.jpg')}}"
+                        <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCategorie2.jpg')}}"
                              style="display: block;" data-holder-rendered="true">
                     </a>
                 </div>
