@@ -31,16 +31,27 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="{{asset('/images/image1.jpg')}}" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="firstSlider">Danmaker</h1>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{asset('/images/image2.jpg')}}" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Danmaker</h1>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{asset('/images/image3.jpg')}}" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Danmaker</h1>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{asset('/images/image4.jpg')}}" alt="First slide">
-                        <span>kj</span>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Danmaker</h1>
+                        </div>
                     </div>
                 </div>
                 <!-- Controle de retour image carousel-->
