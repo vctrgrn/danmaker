@@ -13,10 +13,6 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
 
-    <!-- Styles -->
-    <style>
-
-    </style>
 </head>
 <body>
 
@@ -61,9 +57,20 @@
 <div class="row-gutter"> <!-- Permet de marger entre les conteneurs -->
 </div>
 
-<div class="container">
+<div class="col-1">
+    <ul>
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3 </li>
+        <li>item 4 </li>
+        <li>item 5 </li>
+        <li>item 6 </li>
+    </ul>
+</div>
 
+<div class="container">
     <div class="row">
+        <a></a>
         <div class="col-3">
             <div class="card">
                 <a href="#">
