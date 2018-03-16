@@ -77,11 +77,11 @@
                         <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
                              style="display: block;" data-holder-rendered="true">
                     </a>
-                    <div class="card-body">
+                    {{--<div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                    </div>
+                    </div>--}}
                     <div class="card-footer text-center">
                         <a href="#">Acheter</a> <b>100€</b>
                     </div>
