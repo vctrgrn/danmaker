@@ -61,7 +61,7 @@
 <div class="row-gutter"> <!-- Permet de marger entre les conteneurs -->
 </div>
 
-<div class="container-fluid">
+<div class="container">
 
     <div class="row">
         <div class="col-3">
