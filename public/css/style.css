@@ -113,9 +113,14 @@ h2.titreCategorieCarte {
     top:45%;
     left: 30%;
     color: white;
-
+    font-family: 'Halimun';
 }
 
 .col-1{
     float:left;
+}
+
+/* FONTS ET POLICES D'ÉCRITURE */
+@font-face {
+    font-family: Halimun;
 }

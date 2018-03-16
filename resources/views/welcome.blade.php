@@ -88,7 +88,7 @@
             </div>
             <div class="col-6">
                 <div class="card center">
-                    <h2 class="titreCategorieCarte">CATEGORIE 1</h2>
+                    <h2 class="titreCategorieCarte">Categorie 1</h2>
                     <a href="#">
                         <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCatégorie.jpg')}}"
                              style="display: block;" data-holder-rendered="true">
@@ -97,7 +97,7 @@
             </div>
             <div class="col-6">
                 <div class="card">
-                    <h2 class="titreCategorieCarte">CATEGORIE 1</h2>
+                    <h2 class="titreCategorieCarte">Categorie 1</h2>
                     <a href="#">
                         <img class="card-img-top resizedCategorie" src="{{asset('/images/imageCategorie2.jpg')}}"
                              style="display: block;" data-holder-rendered="true">
