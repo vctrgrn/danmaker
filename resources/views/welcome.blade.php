@@ -70,138 +70,29 @@
 
 <div class="container">
     <div class="row">
-        <a></a>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
+        @for ($i = 0; $i < 12; $i++)
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
+                             style="display: block;" data-holder-rendered="true">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#">Acheter</a> <b>100€</b>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row-gutter"></div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="card">
-                <a href="#">
-                    <img class="card-img-top resized" src="http://danmaker.fr/img/p/8/7/8/878-home_default.jpg"
-                         style="display: block;" data-holder-rendered="true">
-                </a>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#">Acheter</a> <b>100€</b>
-                </div>
-            </div>
-        </div>
+            @if($i==3 || $i == 7)
+                    <div class="container-fluid">
+                        <div class="row-gutter"></div>
+                    </div>
+            @endif
+        @endfor
     </div>
 </div>
 <div class="row-gutter">
