@@ -108,13 +108,17 @@ html, body {
     background: url("../images/imagePull2Gris.jpg");
 }
 
+
 h2.titreCategorieCarte {
     position: absolute;
-    top:45%;
+    top:50%;
     left: 30%;
-    color: white;
     font-family: 'Halimun';
+    color:whitesmoke;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
 }
+
 
 .col-1{
     float:left;
@@ -123,4 +127,5 @@ h2.titreCategorieCarte {
 /* FONTS ET POLICES D'ÉCRITURE */
 @font-face {
     font-family: Halimun;
+    src: url("../fonts/Halimun.ttf");
 }
