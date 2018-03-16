@@ -129,6 +129,11 @@ div.cardCapsule {
     color: rgba(10,10,10,0.8);
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height:80px;
+    width:80px;
+}
+
 .carousel-caption {
     top:150px;
     padding-top:0px;
