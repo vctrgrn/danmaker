@@ -147,7 +147,7 @@
         </div>
         <!-- Collection capsule exemple -->
         <div class="text-center">
-            <h1 class="collectionCard">Besoin d'accessoires pour les vacances ?</h1>
+            <h1 class="collectionCard">Besoin d'accessoires pour les vacances?</h1>
         </div>
         <div class=" offset-2 col-8 cardCapsule lg-only">
         </div>
