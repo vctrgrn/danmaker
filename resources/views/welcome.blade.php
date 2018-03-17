@@ -139,7 +139,7 @@
                         <h5>Printemps/Été</h5>
                         <br>
                         <p>Des grosses promotions! Quisque quam tellus, tempor vitae testos auctor vel, elementum vel dolor. Donec feugiat aliquam augue.
-                            Aliquam erat volutpat. Sed gravida, lectus nec congue seygfsq scelerisque, velit quam vehicula neque, eu aliquam est leo quis ligula.
+                            Aliquam erat volutpat. Sed gravida, lectus nec congue seygfsq scelerisque, mericatum venetus velit quam vehicula neque, eu aliquam est leo quis ligula.
                             Vestibulum vulputate tristique leo, eget commodo nunc varius non. Vivamus eget accumsan lorem.
                         </p>
                 </div>
