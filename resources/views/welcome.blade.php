@@ -156,7 +156,7 @@
             <div class="row-gutter"></div>
         </div>
 
-    <div class="topFooter">
+    <div class="container-fluid topFooter">
 
             <div class="row ">
                 <div class="offset-3"><img src="{{asset('/images/credit-card.png')}}"></div>
