@@ -164,7 +164,7 @@
                 <div class="offset-2"><img src="{{asset('/images/delivery-packages-on-a-trolley.png')}}"></div>
             </div>
             <div class="row">
-                <div class="offset-3 "><span>Paiments sécurisé !</span></div>
+                <div class="offset-3 "><span>paiements sécurisé!</span></div>
                 <div class="offset-2"><span>Livraisons rapides !</span></div>
                 <div class="offset-2"><span>Retours possible</span></div>
             </div>
