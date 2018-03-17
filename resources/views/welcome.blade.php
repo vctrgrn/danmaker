@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>Danmaker</title>
-        <link rel="shortcut icon" href="{{asset('/images/logo.png')}}">
+        <link rel="shortcut icon" href="{{asset('/images/logo.jpg')}}">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -156,7 +156,8 @@
             <div class="row-gutter"></div>
         </div>
 
-    <div class=topFooter">
+
+    <div class="container-fluid topFooter">
 
             <div class="row ">
                 <div class="offset-3"><img src="{{asset('/images/credit-card.png')}}"></div>
@@ -170,8 +171,36 @@
             </div>
     </div>
 
-            <div class="footer">
-
+            <div class="container-fluid footer">
+                <div class="row">
+                <div class="offset-3">
+                        <ul class="listeFooter">
+                            <li>INFORMATIONS</li>
+                            <li>Dan Maker</li>
+                            <li>Paiement / Livraison / Retour</li>
+                            <li>Conditions Générales de Vente</li>
+                            <li>Conditions Générales d'Utilisation</li>
+                        </ul>
+                </div>
+                <div class="offset-1 ">
+                        <ul class="listeFooter">
+                            <li>PRODUITS</li>
+                            <li>Nouveaux Produits</li>
+                            <li>Meilleures Ventes</li>
+                            <li>Les dernières collections</li>
+                            <li>Catégories</li>
+                        </ul>
+                </div>
+                <div class="offset-1">
+                        <ul class="listeFooter">
+                            <li>CONTACT</li>
+                            <li>Clients</li>
+                            <li>Presse / Partenaires</li>
+                            <li>Mentions Légales</li>
+                            <li>Qui sommes-nous</li>
+                        </ul>
+                </div>
+                </div>
             </div>
 
 
