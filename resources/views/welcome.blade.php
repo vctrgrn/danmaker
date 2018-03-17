@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>Danmaker</title>
-        <link rel="shortcut icon" href="{{asset('/images/instagram.png')}}">
+        <link rel="shortcut icon" href="{{asset('/images/logo.png')}}">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -156,7 +156,7 @@
             <div class="row-gutter"></div>
         </div>
 
-    <div class="topFooter">
+    <div class=topFooter">
 
             <div class="row ">
                 <div class="offset-3"><img src="{{asset('/images/credit-card.png')}}"></div>
