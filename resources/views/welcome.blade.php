@@ -16,7 +16,7 @@
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand centeredLogo" href="#">
                 <img src="{{asset('/images/logo.jpg')}}" alt="logo">
             </a>
             <div class="form-inline">

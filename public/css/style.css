@@ -203,6 +203,11 @@ div.footer {
 ul.listeFooter {
     margin-top: 30px;
     list-style: none;
+    color: #fff;
+}
+
+.centeredLogo {
+    margin-left: 45%;
 }
 
 /* FONTS ET POLICES D'ÉCRITURE */
