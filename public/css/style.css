@@ -228,6 +228,17 @@ ul.listeFooter {
     color:#000;
 }
 
+/* ------ FOOTER ------ */
+
+.imgFooter  {
+    padding: 10px 7px;
+}
+
+.sousTitreFooter {
+    font-family: "Champagne & Limousines";
+    font-size: 17px;
+    text-align: center;
+}
 
 /* FONTS ET POLICES D'ÉCRITURE */
 @font-face {
