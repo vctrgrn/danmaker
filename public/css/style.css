@@ -210,6 +210,25 @@ ul.listeFooter {
     margin-left: 45%;
 }
 
+/* ------ MENU GAUCHE FIXÉ ------ */
+
+.fixgauche{
+    z-index: 1;
+    position: fixed;
+    top: 25px;
+    /* Mise en forme */
+    width: 270px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #1b1e21;
+}
+
+.nav-pills .nav-link {
+    color:#000;
+}
+
+
 /* FONTS ET POLICES D'ÉCRITURE */
 @font-face {
     font-family: Halimun;
