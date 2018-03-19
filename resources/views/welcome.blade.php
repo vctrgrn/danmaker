@@ -40,19 +40,19 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('/images/image2.jpg')}}" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Danmaker</h1>
+                    <h1 class="shadow">Danmaker</h1>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('/images/image3.jpg')}}" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Danmaker</h1>
+                    <h1 class="shadow">Danmaker</h1>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('/images/image4.jpg')}}" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Danmaker</h1>
+                    <h1 class="shadow">Danmaker</h1>
                 </div>
             </div>
         </div>
@@ -216,7 +216,9 @@
                     <li>Clients</li>
                     <li>Presse / Partenaires</li>
                     <li>Mentions Légales</li>
-                    <li>Qui sommes-nous</li>
+                    <li>
+                        <a href="{{asset(url('about'))}}">Qui sommes-nous</a>
+                    </li>
                 </ul>
             </div>
         </div>
