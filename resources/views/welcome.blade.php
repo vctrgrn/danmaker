@@ -17,7 +17,7 @@
     <script type='text/javascript' src="{{asset('/js/menu.js')}}"></script>
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark collapse fixed-top">
     <a class="navbar-brand centeredLogo" href="#">
         <img src="{{asset('/images/logo.jpg')}}" alt="logo">
     </a>
