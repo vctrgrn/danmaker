@@ -46,7 +46,7 @@ html, body {
 
 /* Fixe la taille du carousel */
 .carousel-inner {
-    height: 950px;
+    height: 880px;
 }
 /* Fixe la taille des flèches du carousel */
 .carousel-control-next-icon, .carousel-control-prev-icon {
