@@ -163,7 +163,7 @@
     <div class="text-center">
         <h1 class="collectionCard">Besoin d'accessoires pour les vacances?</h1>
     </div>
-    <div class=" offset-1 col-12 cardCapsule lg-only">
+    <div class=" offset-1 col-11 cardCapsule lg-only">
     </div>
     <!-- Marge-->
     <div class="container-fluid">
