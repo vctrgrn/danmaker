@@ -18,11 +18,11 @@
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark collapse fixed-top">
-    <a class="navbar-brand centeredLogo" href="#">
+    <a class="navbar-brand centeredLogo" href="/">
         <img src="{{asset('/images/logo.jpg')}}" alt="logo">
     </a>
     <div class="form-inline">
-        <a href="http://localhost/public/login"><span class="userIcon"><img src="{{asset('/images/user.png')}}"></span></a>
+        <a href="http://localhost/public/register"><span class="userIcon"><img src="{{asset('/images/user.png')}}"></span></a>
         <span class="panierIcon"><img src="{{asset('/images/cart-of-ecommerce.png')}}"></span>
         <span class="searchIcon"><img src="{{asset('/images/magnifier.png')}}"></span>
     </div>

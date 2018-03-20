@@ -19,6 +19,10 @@ html, body {
     height:30px;
 }
 
+.row-gutterTop {
+    height:120px;
+}
+
 .shadow{
     text-shadow: 4px 5px 5px rgba(10, 10, 10, 0.8);;
 }
@@ -197,4 +201,12 @@ div.footer {
     src: url("../fonts/Halimun.ttf");
 
 }
-
+.card-text {
+    padding: 7px 7px;
+}
+.imageArticle {
+    width: 250px;
+    height: 250px;
+    float:left;
+    margin-right:50px;
+}
