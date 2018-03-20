@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/css/z_responsive.css')}}">
     <script type='text/javascript'
             src="{{asset('http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2')}}"></script>
     <script type='text/javascript' src="{{asset('/js/menu.js')}}"></script>
