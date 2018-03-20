@@ -7,79 +7,23 @@ html, body {
     margin: 0;
 }
 
+/* ------ STYLES ET STRUCTURATION DU SITE */
+
+    /* Cache le soulignement des liens */
 .blinkUnderline a{
     text-decoration:none;
 }
 
-.full-height {
-    height: 100vh;
-}
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.position-ref {
-    position: relative;
-}
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-.content {
-    text-align: center;
-}
-.title {
-    font-size: 84px;
-}
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.m-b-md {
-    margin-bottom: 30px;
+    /* Permet l'espacement vertical entre deux élements*/
+.row-gutter {
+    height:30px;
 }
 
-.full-height {
-    height: 100vh;
+.shadow{
+    text-shadow: 4px 5px 5px rgba(10, 10, 10, 0.8);;
 }
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.position-ref {
-    position: relative;
-}
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-.content {
-    text-align: center;
-}
-.title {
-    font-size: 84px;
-}
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.m-b-md {
-    margin-bottom: 30px;
-}
+
+/* ------ NAV-BAR */
 
 .userIcon {
     margin-right: 20px;
@@ -89,25 +33,45 @@ html, body {
     margin-left: 20px;
 }
 
+.centeredLogo {
+    margin-left: 45%;
+}
+
+.bg-dark {
+    height: 100px;
+    box-shadow: 0px 5px 7px #000c;
+}
+
+/* ------ CAROUSEL */
+
+    /* Fixe la taille du carousel */
 .carousel-inner {
-    height: 900px;
+    height: 950px;
+}
+    /* Fixe la taille des flèches du carousel */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height:80px;
+    width:80px;
 }
 
-.row-gutter {
-    height:30px;
+.carousel-caption {
+    top:300px;
+    padding-top:0px;
 }
 
-.resized {
-    max-width:100%;
-    height:350px;
-    background: url("../images/imagePull2Bleu.jpg");
+.carousel-caption>h1 {
+    font-family: Halimun;
+    font-size: 100px;
 }
 
-.resized:hover{
+/* ------ CONTENEURS PRINCIPAUX (ARTICLES, CAPSULES, CATEGORIES ETC...) (CARDS) */
+
+.card {
+    box-shadow: 4px 5px 5px #878383cc;
+}
+
+.card-footer > a{
     background: url("../images/imagePull2Gris.jpg");
-}
-
-.card-footer>a{
     color: #b21f2d;
 }
 
@@ -124,36 +88,21 @@ h2.titreCategorieCarte {
 }
 
 .titreCategorieCarte:hover {
-    background-color: rgba(250,255,241,0.2) ;
+     background-color: rgba(250,255,241,0.2) ;
+ }
+
+.resized {
+    max-width:100%;
+    height:350px;
+    background: url("../images/imagePull2Bleu.jpg");
+}
+
+.resized:hover{
 }
 
 div.cardCapsule {
     background: url("../images/collectionEte.jpg");
     height: 350px;
-}
-
-
-.firstSlider{
-    color: rgba(10,10,10,0.8);
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    height:80px;
-    width:80px;
-}
-
-.carousel-caption {
-    top:150px;
-    padding-top:0px;
-}
-
-.carousel-caption>h1 {
-    font-family: Halimun;
-    font-size: 100px;
-}
-
-.col-1{
-    float:left;
 }
 
 h1.collectionCard {
@@ -170,18 +119,6 @@ h1.collectionCard {
     position: relative;
 }
 
-.bg-dark {
-    height: 100px;
-}
-
-div.topFooter {
-    background-color: whitesmoke;
-}
-
-div.footer {
-    background: black;
-
-}
 
 .divBanner {
     height:300px;
@@ -200,28 +137,21 @@ div.footer {
     margin-left: 30px;
 }
 
-ul.listeFooter {
-    margin-top: 30px;
-    list-style: none;
-    color: #fff;
-}
-
-.centeredLogo {
-    margin-left: 45%;
-}
-
 /* ------ MENU GAUCHE FIXÉ ------ */
+.col-1{
+    float:left;
+}
 
 .fixgauche{
     z-index: 1;
     position: fixed;
-    top: 25px;
-    /* Mise en forme */
-    width: 270px;
+    top: 120px;
+    width: 200px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: #1b1e21;
+    background-color: #383b3e;
+    box-shadow: 4px 5px 5px #878383cc;
 }
 
 .nav-pills .nav-link {
@@ -234,10 +164,30 @@ ul.listeFooter {
     padding: 10px 7px;
 }
 
+ul.listeFooter {
+    margin-top: 30px;
+    list-style: none;
+    color: #fff;
+}
+
 .sousTitreFooter {
     font-family: "Champagne & Limousines";
     font-size: 17px;
     text-align: center;
+}
+
+.fixed-bot {
+    position:absolute;
+    bottom: 0;
+}
+
+div.topFooter {
+    background-color: whitesmoke;
+}
+
+div.footer {
+    background: black;
+
 }
 
 /* FONTS ET POLICES D'ÉCRITURE */

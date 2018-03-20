@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function (){
+    return view('about');
+});
+
+
+/* ------ NAMED ROUTES */
+Route::get('/categories', 'CategorieController@index')
+    ->name('categories');
+
+/* ------ AUTH ROUTES */
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')
+    ->name('home');
