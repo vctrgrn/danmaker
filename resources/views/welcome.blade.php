@@ -203,7 +203,7 @@
             <div class="offset-1">
                 <ul class="listeFooter">
                     <li>INFORMATIONS</li>
-                    <li>Dan Maker</li>
+                    <li><a href="{{asset('about')}}">Dan Maker</a></li>
                     <li>Paiement / Livraison / Retour</li>
                     <li>Conditions Générales de Vente</li>
                     <li>Conditions Générales d'Utilisation</li>
@@ -215,7 +215,7 @@
                     <li>Nouveaux Produits</li>
                     <li>Meilleures Ventes</li>
                     <li>Les dernières collections</li>
-                    <li>Catégories</li>
+                    <li><a href="{{asset('categories')}}">Catégories</a></li>
                 </ul>
             </div>
             <div class="offset-2">
