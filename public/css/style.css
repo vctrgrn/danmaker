@@ -7,16 +7,46 @@ html, body {
     margin: 0;
 }
 
+<<<<<<< HEAD
 /* ------ STYLES ET STRUCTURATION DU SITE */
 
     /* Cache le soulignement des liens */
+=======
+
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 .blinkUnderline a{
     text-decoration:none;
 }
 
+<<<<<<< HEAD
     /* Permet l'espacement vertical entre deux élements*/
 .row-gutter {
     height:30px;
+=======
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.content {
+    text-align: center;
+}
+.title {
+    font-size: 84px;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.m-b-md {
+    margin-bottom: 30px;
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 }
 
 .shadow{
@@ -47,11 +77,14 @@ html, body {
     /* Fixe la taille du carousel */
 .carousel-inner {
     height: 950px;
+<<<<<<< HEAD
 }
     /* Fixe la taille des flèches du carousel */
 .carousel-control-next-icon, .carousel-control-prev-icon {
     height:80px;
     width:80px;
+=======
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 }
 
 .carousel-caption {
@@ -91,10 +124,26 @@ h2.titreCategorieCarte {
      background-color: rgba(250,255,241,0.2) ;
  }
 
+<<<<<<< HEAD
 .resized {
     max-width:100%;
     height:350px;
     background: url("../images/imagePull2Bleu.jpg");
+=======
+
+.firstSlider{
+    color: rgba(10,10,10,0.8);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height:80px;
+    width:80px;
+}
+
+.carousel-caption {
+    top:300px;
+    padding-top:0px;
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 }
 
 .resized:hover{
@@ -119,6 +168,22 @@ h1.collectionCard {
     position: relative;
 }
 
+<<<<<<< HEAD
+=======
+.bg-dark {
+    height: 100px;
+    box-shadow: 0px 5px 7px #000c;
+}
+
+div.topFooter {
+    background-color: whitesmoke;
+}
+
+div.footer {
+    background: black;
+
+}
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 
 .divBanner {
     height:300px;
@@ -130,6 +195,7 @@ h1.collectionCard {
     padding: 10px;
     color: #000;
 }
+
 
 .sousTitre {
     font-family: Halimun;
@@ -146,7 +212,12 @@ h1.collectionCard {
     z-index: 1;
     position: fixed;
     top: 120px;
+<<<<<<< HEAD
     width: 200px;
+=======
+    /* Mise en forme */
+    width: 270px;
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -156,6 +227,14 @@ h1.collectionCard {
 
 .nav-pills .nav-link {
     color:#000;
+}
+
+.card {
+    box-shadow: 4px 5px 5px #878383cc;
+}
+
+.shadow{
+    text-shadow: 4px 5px 5px rgba(10, 10, 10, 0.8);;
 }
 
 /* ------ FOOTER ------ */
@@ -181,6 +260,7 @@ ul.listeFooter {
     bottom: 0;
 }
 
+<<<<<<< HEAD
 div.topFooter {
     background-color: whitesmoke;
 }
@@ -190,6 +270,8 @@ div.footer {
 
 }
 
+=======
+>>>>>>> 68ff726f39b10243273ef97a7a078ffcef0e1bca
 /* FONTS ET POLICES D'ÉCRITURE */
 @font-face {
     font-family: Halimun;
