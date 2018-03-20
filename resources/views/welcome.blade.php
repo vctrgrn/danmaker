@@ -163,7 +163,7 @@
     <div class="text-center">
         <h1 class="collectionCard">Besoin d'accessoires pour les vacances?</h1>
     </div>
-    <div class=" offset-2 col-8 cardCapsule lg-only">
+    <div class=" offset-1 col-12 cardCapsule lg-only">
     </div>
     <!-- Marge-->
     <div class="container-fluid">
@@ -174,7 +174,7 @@
     <div class="container-fluid topFooter">
 
         <div class="row">
-            <div class="offset-3 imgFooter">
+            <div class="offset-2 imgFooter">
                 <img src="{{asset('/images/credit-card.png')}}" class="imgFooter">
                 <div class="sousTitreFooter">Paiements sécurisés</div>
             </div>
@@ -192,7 +192,7 @@
 
     <div class="container-fluid footer">
         <div class="row">
-            <div class="offset-3">
+            <div class="offset-1">
                 <ul class="listeFooter">
                     <li>INFORMATIONS</li>
                     <li>Dan Maker</li>
@@ -201,7 +201,7 @@
                     <li>Conditions Générales d'Utilisation</li>
                 </ul>
             </div>
-            <div class="offset-1 ">
+            <div class="offset-2">
                 <ul class="listeFooter">
                     <li>PRODUITS</li>
                     <li>Nouveaux Produits</li>
@@ -210,7 +210,7 @@
                     <li>Catégories</li>
                 </ul>
             </div>
-            <div class="offset-1">
+            <div class="offset-2">
                 <ul class="listeFooter">
                     <li>CONTACT</li>
                     <li>Clients</li>
