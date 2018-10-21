@@ -105,7 +105,15 @@ h2.titreCategorieCarte {
 
 div.cardCapsule {
     background: url("../images/collectionEte.jpg");
+        background-position-x: 0%;
+        background-repeat: repeat;
     height: 350px;
+    display: block;
+    background-repeat: no-repeat;
+    position: relative;
+    left: auto;
+    right: auto;
+    background-position-x: 165px;
 }
 
 h1.collectionCard {
